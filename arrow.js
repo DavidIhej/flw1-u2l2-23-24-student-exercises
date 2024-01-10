@@ -3,17 +3,29 @@ function sayHello() {
     console.log("Hello, world!");
   }
 
+const sayHello = () => {
+  console.log("Hello, world!");
+}
+sayHello();
 
 // 2. Convert to an arrow function.
 function square(num) {
     return num * num;
   }
+const square = (num) => {
+  return num * num
+}
+square()
   
 
 // 3. Convert to an arrow function.
 function addNums(a, b) {
     return a + b;
   }
+const addNums = (a, b) => {
+  return a + b;
+}
+addNums(2,4)
   
 
 
